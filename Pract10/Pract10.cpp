@@ -86,8 +86,8 @@ public:
 };
 
 int main() {
-    DynamicString str1("Привіт");
-    DynamicString str2(" світ!");
+    DynamicString str1("Hello");
+    DynamicString str2(" world!");
     // test assignment operator
     DynamicString str3 = str1;
     std::cout << "str3 = " << str3 << std::endl;
