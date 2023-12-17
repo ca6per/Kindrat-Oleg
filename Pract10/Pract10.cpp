@@ -105,7 +105,7 @@ int main() {
     // test inclusion operator
     DynamicString str5("abcd");
     DynamicString str6("defg");
-    std::cout << "str5 << 'c': " << (str5 << 'c') << std::endl;
-    std::cout << "str6 << 'c': " << (str6 << 'c') << std::endl;
+    std::cout << "str5 << 'c': " << (str5 << 'a') << std::endl;
+    std::cout << "str6 << 'c': " << (str6 << 'b') << std::endl;
     return 0;
 }
